@@ -1,0 +1,101 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding-top: 50px;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #075757;
+  margin-bottom: 0.5rem;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+
+.TodoWrapper {
+  background: #34b0b3cc;
+  margin-top: 5rem;
+  padding: 2.5rem 2rem 2rem 2rem;
+  border-radius: 16px;
+  width: 500px;
+  box-shadow: 0 8px 32px 0 rgba(7, 87, 87, 0.15);
+  border: 2px solid #075757;
+}
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.todo-input {
+  outline: none;
+  background: #e0f7fa;
+  border: 1.5px solid #075757;
+  padding: 0.6rem 1.2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 65%;
+  color: #075757;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border 0.2s;
+}
+
+.todo-input:focus {
+  border: 2px solid #209dbd;
+  background: #b2ebf2;
+}
+
+.todo-input::placeholder {
+  color: #07575799;
+}
+
+.todoform-button {
+  background: #075757;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor:pointer;
+  
+}
+
+.todoform-button:hover {
+  background: #209dbd;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #b2dfdb;
+  color: #075757;
+  padding: 0.2rem 1.2rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  border: 1.5px solid #075757;
+  box-shadow: 0 2px 8px 0 rgba(7, 87, 87, 0.07);
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+
+
