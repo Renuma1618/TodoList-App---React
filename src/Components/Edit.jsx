@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 
 const Edit = ({ edit, task }) => {
-  const [value, setvalue] = useState(task.task); // Initialize with the current task value
+  const [value, setvalue] = useState(task.task); 
 
   const handleSubmit = (e) => {
     e.preventDefault();
     edit(value, task.id);
-    setvalue(''); // Clear the input field after submission
+    setvalue(''); 
   }
   return (
     <form className='TodoForm' onSubmit={handleSubmit}> 

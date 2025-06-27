@@ -8,7 +8,7 @@ const Todofrom = ({addtodo}) => {
     e.preventDefault();
     addtodo(value);
     
-    setvalue(''); // Clear the input field after submission
+    setvalue(''); 
   }
   return (
     <form className='TodoForm' onSubmit={handleSubmit}> 
